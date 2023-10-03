@@ -12,8 +12,6 @@ class ContaBancaria {
     }
 
     sacar(valor){
-        // var saque = this.saldo - valor;
-        // this.saldo = saque;
         if (valor > this.saldo) {
             return "Saldo insuficiente para saque! \nSeu saldo atual é: R$" +this.saldo;
         }else{
