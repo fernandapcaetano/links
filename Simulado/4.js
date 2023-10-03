@@ -18,6 +18,7 @@ class Carro{
         }else{
             this.velocidade = this.velocidade + 10;
             if (this.velocidade > 120) {
+                this.velocidade = 120;
                 return false;
             }else{
                 return true;
